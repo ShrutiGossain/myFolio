@@ -4,6 +4,11 @@ import { contactDetails } from "../Details";
 function Contact() {
   const { email, phone } = contactDetails;
   return (
+    <div className="bg-gradient-to-bl from-[#00abab] to-white min-h-screen flex items-center justify-center">
+    <div
+      className="shadow-md shadow-[#007a7a] rounded-xl border-2 border-[#ffffff] bg-gradient-to-t from-[#00dcdc] to-[#00abab] transition ease-in-out delay-50 hover:-translate-y-2 duration-500 px-16 py-8 pb-16 h-[650px]"
+      style={{ backgroundColor: "#00abab" }}
+    >
     <main className="container mx-auto max-width section">
       <h1 className="text-center text-2xl md:text-3xl lg:text-6xl text-dark-heading dark:text-light-heading font-semibold md:font-bold">
         For any questions please drop a mail
@@ -16,6 +21,8 @@ function Contact() {
         <a href={`tel:${phone}`}>{phone}</a>
       </h3>
     </main>
+    </div>
+    </div>
   );
 }
 

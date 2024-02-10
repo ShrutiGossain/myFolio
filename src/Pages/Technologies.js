@@ -19,6 +19,7 @@ function Technologies() {
     figma,
   } = techStackDetails;
   return (
+    <div className="bg-gradient-to-bl from-[#00abab] to-[00abab] min-h-screen flex items-center justify-center">
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -57,6 +58,7 @@ function Technologies() {
         <img src={postman} title="Postman" alt="Postman" /> 
       </section>
     </main>
+    </div>
   );
 }
 
