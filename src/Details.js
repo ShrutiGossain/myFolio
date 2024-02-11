@@ -25,7 +25,7 @@ import projectImage4 from "./assets/projects/project4.jpg";
 
 export const personalDetails = {
   name: "Shruti Gossain",
-  tagline: "I build things for web",
+  tagline: "I paint with digital brushes",
   img: profile,
   about: "A dedicated computer science student currently pursuing my B.Tech degree. My journey in technology has been diverse, ultimately guiding me towards specializing in web development. I possess a strong passion for problem-solving. In addition to my adept coding skills, I actively contribute to the open-source community, advocating for collaborative knowledge sharing. Furthermore, I bring a creative flair to my work, excelling in the role of a UX/UI designer, utilizing the powerful Figma software to craft compelling user experiences."};
 
