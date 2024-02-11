@@ -57,10 +57,10 @@ function Home() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-bl from-[#00abab] to-white min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-bl from-[#242526] to-white min-h-screen flex items-center justify-center">
     <div
-      className="shadow-md shadow-[#007a7a] rounded-xl border-2 border-[#ffffff] bg-gradient-to-t from-[#00dcdc] to-[#00abab] transition ease-in-out delay-50 hover:-translate-y-2 duration-500 px-16 py-8 pb-16 h-[650px]"
-      style={{ backgroundColor: "#00abab" }}
+      className="shadow-md shadow-[#3a3b3c] rounded-xl border-2 border-[#ffffff] bg-gradient-to-t from-[3a3b3c] to-[3a3b3c] transition ease-in-out delay-50 hover:-translate-y-2 duration-500 px-16 py-8 pb-16 h-[650px]"
+      style={{ backgroundColor: "#4e4f4f" }}
     >
     <main className="container mx-auto max-width section md:flex justify-between items-center">
       <div>
